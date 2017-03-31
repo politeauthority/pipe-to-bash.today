@@ -14,7 +14,7 @@ RUN apt-get update && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ADD ./ /pipe-to-git/
-RUN pip install -r /pipe-to-git/requirements.txt
+RUN pip install -r /pipe-to-git/pip-requirements.txt
 RUN cd /pipe-to-git/
 
 
