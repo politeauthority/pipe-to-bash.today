@@ -13,9 +13,9 @@ RUN apt-get update && \
         && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ADD ./ /pipe-to-git/
-RUN pip install -r /pipe-to-git/resources/pip-requirements.txt
-RUN cd /pipe-to-git/
+ADD ./ /pipe-to-bash/
+RUN pip install -r /pipe-to-bash/resources/pip-requirements.txt
+RUN cd /pipe-to-bash/
 
 
-CMD python /pipe-to-git/run.py
+CMD python /pipe-to-bash/run.py
