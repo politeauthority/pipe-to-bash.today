@@ -1,0 +1,26 @@
+INFO:werkzeug: * Running on http://0.0.0.0:8071/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:24:54] "GET / HTTP/1.1" 0 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:24:55] "GET / HTTP/1.1" 0 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:25:09] "GET /cmd/heartblead HTTP/1.1" 404 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:25:15] "GET /load/heartblead HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:27:24] "GET /load/heartblead HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:27:31] "GET /load/update HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8071/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:27:58] "GET /load/update HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:27:59] "GET /load/update HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:28:00] "GET /load/update HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:28:01] "GET /load/update HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:29:06] "GET /load/update HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:29:38] "GET /load/fu HTTP/1.1" 200 -
+INFO:werkzeug:166.173.59.56 - - [30/Mar/2017 21:29:48] "GET /load/fu HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:29:49] "GET /load/fu HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:30:36] "GET /load/fu HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:33:27] "GET /load/fu HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:33:57] "GET /load/spacex_source_code_install HTTP/1.1" 200 -
+INFO:werkzeug:52.91.184.228 - - [30/Mar/2017 21:34:09] "GET /load/spacex_source_code_install HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:34:32] "GET /load/spacex_source_code_install HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:35:27] "GET /load/update HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:38:09] "GET /load/update HTTP/1.1" 200 -
+INFO:werkzeug:73.217.11.92 - - [30/Mar/2017 21:38:14] "GET / HTTP/1.1" 0 -
