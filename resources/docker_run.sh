@@ -6,7 +6,7 @@ docker run \
        -e DB_PASS="" \
        -e WP_DB_NAME="" \
        -e WP_DB_HOST="" \
-       -e VIRTUAL_HOST="dont.pipe-to-bash.today,pipe-to-bash.today" \
+       -e VIRTUAL_HOST=pipe-to-bash.today \
        -e PTBT_DEPLOYMENT="dev" \
        -e PTBT_PORT=80 \
        -d \
